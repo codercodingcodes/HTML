@@ -1,10 +1,10 @@
-
+ 
 
 html{
     background-image: url(giphy.gif);
     border: 30px solid transparent ;
     border-image: url(color.gif) 1 round;
-    height:auto; 
+    height: auto; 
 }
 
 
