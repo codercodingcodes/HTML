@@ -1,9 +1,4 @@
 
-var OH= "OhLaLa";
-
-
-
-
 function StarWarZ(){
     heading = document.querySelector("h1");
     heading.innerHTML = "SwolloIsSwell"
