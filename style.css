@@ -1,0 +1,92 @@
+
+
+html{
+    background-image: url(giphy.gif);
+    border: 30px solid transparent ;
+    border-image: url(color.gif) 1 round;
+    height:auto; 
+}
+
+
+.Cr{
+    background-image: url(KYLO.jpg);
+}
+.para {
+    margin: auto;
+    margin-bottom: 2000px;
+color : orange;
+font-size: 500%;
+width: 1000px;
+ border: 10px solid transparent;
+    padding: 15px;
+    border-color: black;
+    text-align: center;
+}
+.bb {
+    margin:auto;
+    box-sizing: border-box;
+    width: 200px;
+    border: 10px solid;
+    padding: 10px;
+    border-image: url(giphy.gif) 2 round;
+    text-align: center;
+}
+ 
+.cd {
+    box-sizing: border-box;
+    margin: auto;
+    width: 200px;
+    border: 10px solid transparent;
+    padding: 10px;
+    border-image: url(giphy.gif) 2 round;
+    text-align: center;
+}
+
+.NICE {
+  text-align: center;
+    
+}
+
+.bEn{
+    color: white;
+}
+
+.ordered{
+    color:aliceblue;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  bottom:0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color:deepskyblue;
+    position:sticky;
+    top:0;
+}
+
+li{
+    float:left;
+}
+li a {
+    display: block;
+    color: cyan;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: blue;    
+}
+.active{
+    background-color: darkblue;
+}
