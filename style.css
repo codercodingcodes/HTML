@@ -87,6 +87,53 @@ li a {
 li a:hover:not(.active){
     background-color: blue;    
 }
-.active{
+.bere{
     background-color: darkblue;
+}
+
+.dropdown {
+    float: right;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: cyan;
+    padding: 14px 30px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+ .dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0066cc;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: cyan;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border: 1px solid;
+    border-color: blue ;
+}
+
+.dropdown-content a:hover {
+    color: darkblue;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
