@@ -2,7 +2,7 @@
 
 html{
     background-image: url(giphy.gif);
-    border: 30px solid transparent ;
+    border: 25px solid transparent ;
     border-image: url(color.gif) 1 round;
     height: auto; 
 }
@@ -134,12 +134,10 @@ li a:hover{
     text-decoration: none;
     display: block;
     text-align: left;
-    border: 1px solid;
-    border-color: blue ;
 }
 
 .dropdown-content a:hover {
-    color: darkblue;
+    background-color: darkblue;
 }
 
 .dropdown:hover .dropdown-content {
